@@ -76,10 +76,7 @@ def download(url: str, path):
 
 class Main:
     def __init__(self):
-        print("""
-        Script made by jojoblackfr
-        
-        """)
+        print(" ----- Script made by jojoblackfr ----- ")
 
 
         self.Manifest_Url = "http://launcher.epicexplorers.fr/files/"
@@ -155,5 +152,7 @@ class Main:
             os.remove(self.Local[files])
         print(' ----- All Unwanted file Deleted ----- ')
 
-
-main = Main()
+if "INST_ID" not in os.environ:
+    print('This script must be executed from Prism Launcher')
+else:
+    main = Main()
