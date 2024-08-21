@@ -3,6 +3,7 @@
 ### Requirement
 - `python 3.*`
 - `requests`
+- `pyinstaller`
 
 
 
@@ -15,7 +16,7 @@ suite à ça modifier l'instance puis aller dans la section:
 
  `paramètres > Commandes personalisées`
 
-coché `Commandes Personnalisées` et dans `Commande de pré-lancement` inscrivé la commande `python CHEMIN_VERS_VOTRE_SCRIPT` 
+coché `Commandes Personnalisées` et dans `Commande de pré-lancement` inscrivé la commande `epicexplorer-prism` 
 
 ---
 
