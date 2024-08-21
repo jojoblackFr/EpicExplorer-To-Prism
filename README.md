@@ -23,5 +23,4 @@ coché `Commandes Personnalisées` et dans `Commande de pré-lancement` inscriv�
 
 un script qui permet de simplifier la mise en place du modpack sur le launcher prism
 
-- un builder pour obtenir une `appimage`
 - crée une instance sans manipulation de l'utilisateur
